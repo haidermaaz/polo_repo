@@ -1,0 +1,89 @@
+.spPerson {
+position: relative;
+width: 255px;
+}
+
+.spPerson .pic img{
+    height: 53%;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.spPerson .detail{
+    padding: 25px 20px 10px 10px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.spPerson .detail h5 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #1f1f1f;
+}
+
+.spPerson .detail h6 {
+    font-size: 13px;
+    color: #bbb;
+    line-height: 18px;
+}
+.spPerson .detail p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    margin: 0px 2.5px 0px 2.5px ;
+    height: 28px;
+    width: 28px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+#ss-media{
+    font-size: 10px;
+    color: #4c5667;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* transform: translate(50px, 0px);
+    transition: 1s ease-in-out;
+        overflow: hidden !important; 
+        visibility: hidden; */
+        display: none;
+}
+.circle i{
+    font-size: 11px;
+    color: #4c5667;
+}
+#ico{
+    transform: rotate(360deg);
+    transition: all 0.75s ease-in-out;
+    /* margin-left: 8px; */
+}
+.circle:hover #ico{
+    transform: rotate(720deg);
+    transition: all 0.8 ease-in-out;
+}
+.circle:hover{
+    width: 110px;
+    border-radius: 50px;
+    border-color: #e6e8eb;
+    background-color: #f4f5f8;
+    color: #4c5667;
+    justify-content: space-around;
+}
+.circle:hover #ss-media{
+    /* transform: translate(10px, 0px);
+    transition: 0.5s ease-in-out;
+    visibility: visible;
+    overflow: hidden !important; */
+    display: block;
+} 

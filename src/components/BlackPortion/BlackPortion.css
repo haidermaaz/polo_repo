@@ -1,0 +1,32 @@
+.black{
+    background-color: #181818;
+    color: white;
+    padding: 40px 0px 40px 0px ;
+}
+.black .info{
+    border-right:1px solid #333 ;
+    padding: 5px 0px;
+    height: 74px;
+    margin-top: 0px !important;
+}
+#columns{
+    padding: 0px 15px 0px 15px !important;
+}
+#lastinfo{
+    border-right: none !important;
+}
+.black .info i{
+    margin-top: 5px;
+    padding: 10px 22px;
+}
+.black h6{
+    font-size: 18px;
+    font-weight: 800;
+    color: #b41525;
+    text-transform: uppercase;
+}
+.black .info span p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}

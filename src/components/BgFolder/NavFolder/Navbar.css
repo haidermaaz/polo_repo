@@ -1,0 +1,90 @@
+
+.logo{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+.navbar{
+    color: white;
+    text-transform: uppercase;
+    height: 80px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: normal;
+}
+.global-nav{
+    display: flex;
+    float: right;
+    position: relative;
+}
+.global-nav li{
+    list-style: none;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.global-nav li a{
+    padding: 10px 12px;
+    text-transform: uppercase;
+}
+.local-nav{
+    display: none;
+    background-color: var(--dropback);
+    border: 1px solid var(--dropback);
+    padding: 28px;
+    border-radius: 4px;
+    height: auto;
+    position: absolute;
+    top: 65px;
+}
+.global-nav li:hover .local-nav{
+    display: block;
+}
+.local-nav li{
+    padding-bottom: 0px;
+}
+.local-nav li a{
+    padding: 0px !important;
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 34px;
+    font-weight: 500;
+    font-style: normal;
+    color: #9896a6;
+    font-family: "Poppins",sans-serif;
+    padding: 12px 20px 12px 18px;
+}
+.local-nav li a:hover{
+    color: aliceblue;
+}
+/*--------------dropdown-navbar------------------------*/
+.toggle i{
+    color: white;
+    font-size: 25px;
+}
+#d-men {
+    display: none;
+    background-color: #181818;
+}
+.hidden {
+    display: block !important;
+}
+.drop-ul{
+    list-style: none;
+}
+.drop-ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: normal;
+}

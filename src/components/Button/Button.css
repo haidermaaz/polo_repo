@@ -1,0 +1,16 @@
+button{
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    padding: 8px 22px;
+    margin-bottom: 6px;
+    border: none;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 14px;
+}

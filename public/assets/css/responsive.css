@@ -1,0 +1,266 @@
+@media screen and (min-width: 320px) and (max-width: 575.98px) {
+    .mainnav {
+        padding-top: unset !important;
+        background-color:#181818 ;
+    }
+    .logo {
+        margin-left: 28px;
+        font-size: 31px !important;
+        margin-bottom: unset !important;
+    }
+    .navbar .me-5 {
+        margin-right: 2rem!important;
+    }
+    .banner {
+        padding-top: 80px !important;
+    }
+    .banner h1 {
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+    .banner h2 {
+        font-size: 30px !important;
+    }
+
+    .box {
+        height: 50px !important;
+        width: 45px !important;
+        border: unset !important;
+    }
+    .shed {
+        padding-bottom: 80px !important;
+    }
+    .drop-ul li a {
+        font-size: 17px !important;
+    }
+
+    .box .count {
+        font-size: 20px !important
+    }
+    .banner p {
+        padding: 0px 5px;
+        font-size: 1.35714286em;
+    line-height: 1.68421053em;
+    }
+    p {
+        font-size: 13px !important;
+    }
+
+    .box span:nth-child(3) {
+        font-size: 10px !important;
+    }
+    .MWC {
+        padding: 80px 20px 0px 20px !important;
+    }
+    #columns {
+        padding: 0px 15px 0px 30px !important;
+    }
+
+    #columns:nth-child(3) {
+        margin-left: 71px;
+        margin-top: 15px ;
+    }
+    .event-register {
+        padding: 20px !important;
+    }
+    .schedule {
+        padding: 80px 0px 80px 0px !important;
+    }
+    .spPerson {
+        width: 330px !important;
+    }
+    .spPerson:nth-child(2),
+    .spPerson:nth-child(3),
+    .spPerson:nth-child(4) {
+        margin-top: 45px;
+        width: 100% !important;
+    }
+    .spPerson:nth-child(1),
+    .spPerson:nth-child(2),
+    .spPerson:nth-child(3),
+    .spPerson:nth-child(4) {
+        width: 100% !important;
+    }
+
+    .nscard:nth-child(1),
+    .nscard:nth-child(2),
+    .nscard:nth-child(3){
+        width: 100%;
+    }
+
+    .left-half {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .links {
+        width: 90% !important;
+        margin-left: 53px !important;
+        margin-top: 30px !important;
+
+    }
+    .copyright{
+        padding: 0px 40px 0px 40px !important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .logo {
+        margin-left: 33px;
+    }
+
+    .banner h1 {
+        font-size: 75px !important;
+    }
+
+    .banner h2 {
+        font-size: 45px !important;
+    }
+
+    .box {
+        height: 80px;
+        width: 80px;
+    }
+
+    .drop-ul li a {
+        font-size: 17px !important;
+    }
+
+    .box .count {
+        font-size: 31px !important
+    }
+    .banner p {
+        padding: 0px 40px;
+    }
+    p {
+        font-size: 20px !important;
+    }
+
+    .box span:nth-child(3) {
+        font-size: 15px !important;
+    }
+    .MWC {
+        padding: 80px 40px 0px 40px !important;
+    }
+    #columns {
+        padding: 0px 15px 0px 30px !important;
+    }
+
+    #columns:nth-child(3) {
+        margin-left: 71px;
+    }
+
+    .spPerson {
+        width: 330px !important;
+    }
+    .spPerson:nth-child(2),
+    .spPerson:nth-child(3),
+    .spPerson:nth-child(4) {
+        margin-top: 45px;
+        width: 100% !important;
+    }
+    .spPerson:nth-child(1),
+    .spPerson:nth-child(2),
+    .spPerson:nth-child(3),
+    .spPerson:nth-child(4) {
+        width: 100% !important;
+    }
+
+    .nscard:nth-child(1),
+    .nscard:nth-child(2),
+    .nscard:nth-child(3){
+        width: 100%;
+    }
+
+    .left-half {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .links {
+        width: 90% !important;
+        margin-left: 53px !important;
+        margin-top: 30px !important;
+
+    }
+    .copyright{
+        padding: 0px 40px 0px 40px !important;
+    }
+}
+
+/* / ipad Portrait and Landscape / */
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .logo {
+        margin-left: 33px;
+    }
+
+    .banner h1 {
+        font-size: 75px !important;
+    }
+
+    .banner h2 {
+        font-size: 45px !important;
+    }
+
+    .box {
+        height: 80px;
+        width: 80px;
+    }
+
+    .drop-ul li a {
+        font-size: 17px !important;
+    }
+
+    .box .count {
+        font-size: 31px !important
+    }
+
+    .banner p {
+        padding: 0px 40px;
+    }
+
+    p {
+        font-size: 20px !important;
+    }
+
+    .box span:nth-child(3) {
+        font-size: 15px !important;
+    }
+
+    .MWC {
+        padding: 80px 40px 0px 40px !important;
+        text-align: justify;
+    }
+
+    #columns {
+        padding: 0px 15px 0px 30px !important;
+    }
+
+    #columns:nth-child(3) {
+        margin-left: 71px;
+    }
+
+    .spPerson {
+        width: 330px !important;
+    }
+
+    .spPerson:nth-child(3),
+    .spPerson:nth-child(4) {
+        margin-top: 45px;
+    }
+
+    .nscard:nth-child(3) {
+        margin-top: -27px;
+    }
+
+    .left-half {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .links {
+        width: 90% !important;
+        margin-left: 53px !important;
+        margin-top: 30px !important;
+
+    }
+}

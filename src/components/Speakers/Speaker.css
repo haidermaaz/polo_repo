@@ -1,0 +1,22 @@
+.speaker{
+    padding: 80px 0px;
+    text-align: center;
+    background-color: #F7F9FB;
+}
+.speaker h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 46px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: #1f1f1f;
+    letter-spacing: 0.5px;
+}
+.speaker p{
+    font-weight: 400;
+    font-size: 1.25rem;
+
+}
+.speaker .row{
+margin-top: 100px;
+}

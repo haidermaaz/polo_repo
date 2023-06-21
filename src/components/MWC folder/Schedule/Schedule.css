@@ -1,0 +1,73 @@
+.schedule{
+    padding: 160px 0px 80px 0px;
+}
+.schedule h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 46px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: #1f1f1f;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.schedule h6{
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    color:  #484848;
+    margin-bottom: 40px;
+}
+.day{
+    font-weight: 600;
+    color: rgba(72,72,72,0.8);
+}
+.date{
+    margin-bottom: unset !important;
+}
+.nav-link{
+    border-radius: unset !important;
+    width: 100%;
+    text-align: left;
+    padding: 14px 24px !important;
+}
+.nav-link:focus .day{
+    color: #2250fc;
+}
+
+.nav-link:focus .date{
+    color: #2250fc;
+}
+.nav-link{
+    border-bottom: 2px solid #e6e8eb !important;
+}
+.nav-link:focus{
+    border-bottom: 2px solid #2250fc !important;
+}
+/*--------------------------------tab ccontent---------------------------*/
+.clock{
+    color: #484848 !important;
+    font-size: 1rem;
+}
+.session-by{
+    font-size: 1rem;
+    line-height: 1.85714286em;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+.nav-link {
+     padding: unset;
+}
+.nav-item{
+    width: 25%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: unset;
+    background-color: unset;
+}
+.show {
+    transition: all 0.5s ease-in;
+    color: black;
+    font-size: 60px;
+    margin: 0 auto;
+  }

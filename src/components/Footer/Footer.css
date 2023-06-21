@@ -1,0 +1,45 @@
+footer{
+padding: 60px 0 0 0;
+margin-top: -8px !important;
+background-color: #f8f9fa;
+}
+footer h6{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #777;
+}
+.left-half{
+    width: 322px;
+}
+footer .links{
+    margin-left: auto;
+}
+.links ul {
+    padding-left: unset !important;
+}
+footer ul li{
+    list-style: none;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color:#484848;
+    font-weight: 400;
+    font-size: 14px;
+}
+footer ul li a:hover{
+    color: #484848;
+}

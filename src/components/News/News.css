@@ -1,0 +1,19 @@
+.news{
+    padding: 80px 0px;
+    background-color: #F7F9FB;
+}
+.news h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 46px;
+    font-weight: 300;
+    color: #1f1f1f;
+    text-align: center;
+}
+.news h6{
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #484848;
+}

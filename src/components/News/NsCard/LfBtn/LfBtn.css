@@ -1,0 +1,17 @@
+.lfbtn{
+    background-color: #2250fc;
+    color: #fff;
+    font-size: 13px;
+    padding: 2px 16px;
+    border-radius: 50px;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    z-index: 3;
+    margin-right: 0;
+    border: none;
+}
+.lfbtn a{
+    text-decoration: none;
+    color: white;
+}

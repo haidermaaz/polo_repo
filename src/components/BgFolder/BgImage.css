@@ -1,0 +1,99 @@
+.bg {
+    background-image: url(../../../public/assets/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.shed {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 140px;
+    height: 100%;
+}
+.mainnav{
+    padding-top: 42px;
+    width: 100%;
+}
+.sticky{
+    position: fixed;
+    padding-top: 0px;
+    background-color: #181818;
+    z-index: 9;   
+}
+.banner {
+    color: white;
+    text-align: center;
+    padding-top: 141px;
+}
+
+@keyframes bottom-to-top {
+    0% {
+        transform: translateY(200%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.banner h1 {
+    font-size: 90px;
+    line-height: 100px;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    animation: bottom-to-top 1s 1;
+}
+
+.banner h2 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    animation: bottom-to-top 1s 1;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    animation: bottom-to-top 1s 1;
+}
+
+.box {
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+    margin: 6px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box .count {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box .line {
+    width: 35% !important;
+    border-top: 0.125px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+}
+
+.box span:nth-child(3) {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 25px !important;
+}
+.tbtn-host{
+    animation: bottom-to-top 1s 1;
+}
+.banner p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 30px;
+    animation: bottom-to-top 1s 1;
+}

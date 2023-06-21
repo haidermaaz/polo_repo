@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import BgImage from './components/BgFolder/BgImage';
+import BlackPortion from './components/BlackPortion/BlackPortion';
+import MWC from './components/MWC folder/MWC';
+import Buy from './components/Buy/Buy';
+import Subs from './components/Subscribe/Subscribe';
+import Speakers from './components/Speakers/Speaker';
+import News from './components/News/News';
+import Mapp from './components/Map/Map';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <BgImage />
+            <BlackPortion/>
+            <MWC/>
+            <Buy/>
+            <Speakers/>
+            <Subs/>
+            <News/>
+            <Mapp/>
+            <Footer/>
+        </>
+    );
 }
 
 export default App;
