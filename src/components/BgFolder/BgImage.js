@@ -17,7 +17,7 @@ const BgImage = () => {
             <div className="shed">  
                 <div className="mainnav" id='stky-nav'>
                     <div className="container maxWidth">
-                        <Navbar />
+                        <Navbar/>
                     </div>
                 </div>
                 <div className="container maxWidth">

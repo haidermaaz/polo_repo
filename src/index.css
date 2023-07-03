@@ -16,7 +16,7 @@ body{
     font-size: 1rem;
     line-height: 1.65714286em;
     font-weight: 400;
-    background-color: aquamarine;
+    overflow-x: hidden;
 }
 .row>* {
     padding-right: unset !important;

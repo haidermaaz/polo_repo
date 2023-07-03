@@ -58,9 +58,9 @@
     #columns {
         padding: 0px 30px 0px 15px !important;
     }
-
     #columns:nth-child(3) {
         margin-left: 71px;
+        width: 50% !important;
         margin-top: 15px ;
     }
     .event-register {
@@ -127,6 +127,10 @@
     }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .mainnav {
+        padding-top: unset !important;
+        background-color:#181818 ;
+    }
     .logo {
         margin-left: 40px;
     }
@@ -173,9 +177,10 @@
     #columns {
         padding: 0px 15px 0px 40px !important;
     }
-
     #columns:nth-child(3) {
         margin-left: 71px;
+        width: 50% !important;
+        margin-top: 15px;
     }
     .speaker {
         padding: 80px 40px !important;
@@ -229,6 +234,10 @@
 
 /* / ipad Portrait and Landscape / */
 @media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .mainnav {
+        padding-top: unset !important;
+        background-color:#181818 ;
+    }
     .logo {
         margin-left: 33px;
     }
@@ -277,10 +286,10 @@
         padding: 0px 15px 0px 30px !important;
     }
 
-    #columns:nth-child(3) {
+     #columns:nth-child(3) {
         margin-left: 71px;
+        width: 50% !important;
     }
-
     .spPerson {
         width: 330px !important;
     }
