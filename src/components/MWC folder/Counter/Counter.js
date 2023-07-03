@@ -5,7 +5,7 @@ const Counter = () => {
     return (
         <div className="row">
             <div className="d-flex justify-content-center divider">
-                <div className='l1'> </div> <span className='text'> EVENT INTO NUMBERS </span> <div className='l2'> </div>
+                {/* <span className='l1'> </span> <span className='text'> EVENT INTO NUMBERS </span> <span className='l2'> </span> */}
             </div>
             <div className="col-lg-3 text-center">
                 <Digit start={0} end={12416} />
