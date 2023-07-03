@@ -1,6 +1,6 @@
 import './BgImage.css';
 import Btn from '../Button/Button';
-import Navbar from './NavFolder/Navbar';
+// import Navbar from './NavFolder/Navbar';
 
 window.addEventListener('scroll', ()=>{
     let navbar = document.getElementById("stky-nav");
@@ -17,7 +17,7 @@ const BgImage = () => {
             <div className="shed">  
                 <div className="mainnav" id='stky-nav'>
                     <div className="container maxWidth">
-                        <Navbar />
+                        {/* <Navbar /> */}
                     </div>
                 </div>
                 <div className="container maxWidth">
